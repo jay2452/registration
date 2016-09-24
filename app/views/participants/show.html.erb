@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @participant.name %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @participant.dob %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @participant.gender %>
+</p>
+
+<p>
+  <strong>Bloog group:</strong>
+  <%= @participant.bloog_group %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @participant.weight %>
+</p>
+
+<p>
+  <strong>Organisation:</strong>
+  <%= @participant.organisation %>
+</p>
+
+<%= link_to 'Edit', edit_participant_path(@participant) %> |
+<%= link_to 'Back', participants_path %>

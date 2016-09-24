@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Event Catagories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Catagory</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @event_catagories.each do |event_catagory| %>
+      <tr>
+        <td><%= event_catagory.event %></td>
+        <td><%= event_catagory.catagory %></td>
+        <td><%= link_to 'Show', event_catagory %></td>
+        <td><%= link_to 'Edit', edit_event_catagory_path(event_catagory) %></td>
+        <td><%= link_to 'Destroy', event_catagory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Event Catagory', new_event_catagory_path %>

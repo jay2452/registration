@@ -1,0 +1,2 @@
+module EventCatagoriesHelper
+end

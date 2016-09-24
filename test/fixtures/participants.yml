@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dob: 2016-09-24
+  gender: MyString
+  bloog_group: MyString
+  weight: 1.5
+  organisation: one
+
+two:
+  name: MyString
+  dob: 2016-09-24
+  gender: MyString
+  bloog_group: MyString
+  weight: 1.5
+  organisation: two
